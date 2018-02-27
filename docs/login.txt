@@ -1,0 +1,4 @@
+host:mycompanyass1.database.windows.net
+database:mycompanyass1
+login: koko
+password: Kruti0518

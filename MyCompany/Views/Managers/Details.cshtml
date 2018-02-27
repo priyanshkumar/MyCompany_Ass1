@@ -1,0 +1,67 @@
+﻿@model MyCompany.Models.Manager
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Manager</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Branch.Branch_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Branch.Branch_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Manager_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Manager_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Manager_Job)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Manager_Job)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Manager_Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Manager_Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Provience)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Provience)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Manager_Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
