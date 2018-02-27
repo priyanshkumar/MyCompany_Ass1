@@ -30,7 +30,7 @@ namespace MyCompany.Controllers
             Branch branch = db.Branches.Find(id);
             if (branch == null)
             {
-                return HttpNotFound();
+                return RedirectToAction("Index");
             }
             return View(branch);
         }

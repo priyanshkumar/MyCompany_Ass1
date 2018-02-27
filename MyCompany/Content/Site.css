@@ -12,8 +12,25 @@
 }
 
 .body-content h2 {
-        color: #a9a9d0
+        color: #a9a9d0;
+        font-family: Bahnschrift Light !important;
 }
+
+tbody tr {
+    border: 2px solid #a1d7f1;
+    font-family: Colonna MT;
+    font-size: 22px;
+}
+
+ tbody tr td {
+        font-family: Courier New;
+        font-size: 16px;
+}
+
+tbody tr td a {
+        color:#241b79
+}
+
 .navbar-inverse {
     background-color: #2e5680;
     border-color: #544b4b;
@@ -49,4 +66,13 @@ font-size: 16px;
     color: whitesmoke !important;
     font-size: 26px;
     font-weight: bold;
+    font-style: italic;
+}
+
+.row {
+    font-family: Comic Sans MS;
+}
+.jumbotron p {
+    font-family: Copperplate Gothic Bold;
+    color:red;
 }

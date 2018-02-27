@@ -31,7 +31,7 @@ namespace MyCompany.Controllers
             Manager manager = db.Managers.Find(id);
             if (manager == null)
             {
-                return HttpNotFound();
+                return RedirectToAction("Index");
             }
             return View(manager);
         }

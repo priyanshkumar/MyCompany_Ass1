@@ -31,7 +31,7 @@ namespace MyCompany.Controllers
             Employe employe = db.Employes.Find(id);
             if (employe == null)
             {
-                return HttpNotFound();
+                return RedirectToAction("Index");
             }
             return View(employe);
         }

@@ -4,6 +4,8 @@
 
 <p>In application I had created three tabels. the parent class as Branch followed by child as Master then by Employee.</p>
 
+<p>Application has succesfully Scaffolded to get CRUD operation for all three tabels;
+
 <p>It has 3 model And controller except the default ones. The controllers are modified and up to date.</p>
 
 <p>Views for each controller has been modified and changed with appropriate requirements.</p>
