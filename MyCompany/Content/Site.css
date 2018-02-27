@@ -75,4 +75,10 @@ font-size: 16px;
 .jumbotron p {
     font-family: Copperplate Gothic Bold;
     color:red;
+    font-style: italic;
+}
+
+.jumbotron h1 {
+    color: indianred;
+    font-family: Copperplate Gothic Bold;
 }
